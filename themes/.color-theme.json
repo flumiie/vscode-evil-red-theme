@@ -2,51 +2,65 @@
   "name": "fralyx",
   "type": "dark",
   "colors": {
+    // Terminal
     "terminal.ansiBrightYellow": "#ff8800",
     "terminal.foreground": "#d4ffcd", //"#41ff2f",
     "terminal.background": "#010e00",
+
     // Left Menus
     "activityBar.background": "#330000",
     "activityBar.foreground": "#f0e0e0",
     "activityBar.inactiveForeground": "#7e5757",
+
     // Any Lists
     "list.hoverForeground": "#ff0000",
     "list.hoverBackground": "#480202",
     "list.activeSelectionBackground": "#ff0000",
     "list.activeSelectionForeground": "#1D0101",
+
     // Breadcrumb
     "breadcrumb.background": "#480202",
     "breadcrumbPicker.background": "#480202",
+
     // Sidebar & Sidebar Tree Section Headers
     "sideBar.background": "#1D0101",
     "sideBar.border": "#B50505",
     "sideBarSectionHeader.background": "#B50505",
     "sideBarSectionHeader.border": "#ff0000",
     "sideBarSectionHeader.foreground": "#fff",
+
     // Notification Center
     "notificationCenterHeader.background": "#ff0000",
     "notificationCenterHeader.foreground": "#fff",
+
     // Sidebar Input
     "input.background": "#581d1d",
     "input.border": "#484F52",
+
     // Main Title Bar
     "titleBar.activeBackground": "#330000",
     "titleBar.border": "#131415",
+
     // Terminal Panel Border
     "panel.border": "#B50505", //#5F0303
+
     // Activity Bar
     "activityBar.border": "#131415",
+
     // Main Tab
     "tab.hoverBackground": "#480202",
     "tab.hoverBorder": "#800404",
     "tab.activeBackground": "#B50505",
     "tab.activeBorder": "#ff0000",
+
     // Scroll Bar
     "scrollbarSlider.hoverBackground": "#480202",
     "scrollbarSlider.activeBackground": "#ff0000",
+
     // Status Bar
     "statusBar.border": "#131415",
     "statusBarItem.hoverBackground": "#480202",
+
     // Main Editor
     "editor.background": "#131415",
     "editor.selectionBackground": "#ff000040",
