@@ -1,0 +1,21 @@
+{
+  "name": "evil-red-theme",
+  "displayName": "Evil Red Theme",
+  "description": "A dark-ish red theme for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "fralyx",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fralyx-color-theme.json"
+      }
+    ]
+  }
+}
