@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "fralyx",
+        "label": "Evil Red Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/fralyx-color-theme.json"
+        "path": "./themes/.color-theme.json"
       }
     ]
   }
