@@ -15,9 +15,9 @@
     "activityBar.inactiveForeground": "#7e5757",
 
     // Any Lists
-    "list.hoverForeground": "#ff0000",
+    "list.hoverForeground": "#f00",
     "list.hoverBackground": "#480202",
-    "list.activeSelectionBackground": "#ff0000",
+    "list.activeSelectionBackground": "#f00",
     "list.activeSelectionForeground": "#1D0101",
 
     // Breadcrumb
@@ -28,7 +28,7 @@
     "sideBar.background": "#1D0101",
     "sideBar.border": "#B50505",
     "sideBarSectionHeader.background": "#B50505",
-    "sideBarSectionHeader.border": "#ff0000",
+    "sideBarSectionHeader.border": "#f00",
     "sideBarSectionHeader.foreground": "#fff",
 
     // Notification Center
@@ -50,27 +50,25 @@
     "tab.hoverBackground": "#480202",
     "tab.hoverBorder": "#800404",
     "tab.activeBackground": "#B50505",
-    "tab.activeBorder": "#ff0000",
+    "tab.activeBorder": "#f00",
 
     // Scroll Bar
     "scrollbarSlider.hoverBackground": "#480202",
-    "scrollbarSlider.activeBackground": "#ff0000",
+    "scrollbarSlider.activeBackground": "#f00",
 
     // Status Bar
+    "statusBar.background": "#480202",
     "statusBar.border": "#131415",
-    "statusBarItem.hoverBackground": "#480202",
-
-    "sideBar.dropBackground": "#d1ff9c",
-    // ff9c6f
+    "statusBarItem.hoverBackground": "#f00",
 
     // Main Editor
     "editorLineNumber.foreground": "#ff4a4a82",
-    "editorWidget.border": "#ff0000",
+    "editorWidget.border": "#f00",
     "diffEditor.border": "#f00",
     "minimap.selectionHighlight": "#f00",
     "minimapSlider.background": "#ff00004d",
     "minimapSlider.hoverBackground": "#ff000071",
-    "minimapSlider.activeBackground": "#ff00009d"
+    "minimapSlider.activeBackground": "#ff00009d",
   },
   "tokenColors": "./Red.tmTheme"
 }
