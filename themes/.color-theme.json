@@ -47,6 +47,8 @@
     "activityBar.border": "#131415",
 
     // Main Tab
+    "editorGroupHeader.tabsBackground": "#290101",
+    "tab.inactiveBackground": "#4e2d2d",
     "tab.hoverBackground": "#480202",
     "tab.hoverBorder": "#800404",
     "tab.activeBackground": "#B50505",
@@ -68,7 +70,7 @@
     "minimap.selectionHighlight": "#f00",
     "minimapSlider.background": "#ff00004d",
     "minimapSlider.hoverBackground": "#ff000071",
-    "minimapSlider.activeBackground": "#ff00009d",
+    "minimapSlider.activeBackground": "#ff00009d"
   },
   "tokenColors": "./Red.tmTheme"
 }
