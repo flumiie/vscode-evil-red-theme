@@ -9,6 +9,9 @@
     // Terminal Panel Border
     "panel.border": "#B50505", //#5F0303
 
+    // Context Menu
+    "menu.background": "#330000",
+
     // Left Menus
     "activityBar.background": "#330000",
     "activityBar.foreground": "#f0e0e0",
@@ -19,6 +22,10 @@
     "list.hoverBackground": "#480202",
     "list.activeSelectionBackground": "#f00",
     "list.activeSelectionForeground": "#1D0101",
+
+    // Button
+    "button.background": "#5c0000",
+    "button.hoverBackground": "#ff0000",
 
     // Breadcrumb
     "breadcrumb.background": "#480202",
