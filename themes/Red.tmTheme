@@ -262,17 +262,45 @@
 				<string>#73817dff</string>
 			</dict>
 		</dict>
+		<!-- Brackets -->
 		<dict>
 			<key>name</key>
-			<string>Meta.tag.A</string>
+			<string>Meta.tag</string>
 			<key>scope</key>
-			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
+			<string>declaration.tag, meta.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#ffa67d</string>
+			</dict>
+		</dict>
+		<!-- Element Entities -->
+		<dict>
+			<key>name</key>
+			<string>Meta.tag</string>
+			<key>scope</key>
+			<string>declaration.tag entity, meta.tag entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#ffa67d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta.tag</string>
+			<key>scope</key>
+			<string>declaration.tag attribute-name, meta.tag entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#9aff57</string>
 			</dict>
 		</dict>
 		<dict>
