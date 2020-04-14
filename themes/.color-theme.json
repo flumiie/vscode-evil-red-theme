@@ -3,6 +3,7 @@
   "type": "dark",
   "colors": {
     // Main Editor
+    "errorForeground": "#f00",
     "editorLineNumber.foreground": "#ff4a4a82",
     "editorWidget.border": "#f00",
     "diffEditor.border": "#f00",
@@ -13,30 +14,38 @@
 
     // Terminal
     "terminal.ansiBrightYellow": "#ff8800",
-    "terminal.foreground": "#ffcdcd", //"#41ff2f",
+    "terminal.foreground": "#fcc", //"#41ff2f",
     "terminal.background": "#1D0101",
     // Terminal Panel Border
     "panel.border": "#B50505", //#5F0303
 
     // Context Menu
-    "menu.background": "#330000",
+    "menu.background": "#300",
 
     // Left Menus
-    "activityBar.background": "#330000",
+    "activityBar.background": "#300",
     "activityBar.foreground": "#f0e0e0",
     "activityBar.inactiveForeground": "#7e5757",
 
     // Any Lists
-    "list.hoverForeground": "#f00",
-    "list.hoverBackground": "#480202",
-    "list.activeSelectionBackground": "#f00",
-    "list.activeSelectionForeground": "#1D0101",
+    "list.hoverForeground": "#fff",
+    "list.hoverBackground": "#7e0303",
+    "list.dropBackground": "#770404",
+    "list.focusForeground": "#fff",
+    "list.inactiveSelectionBackground": "#520000",
+    "list.activeSelectionBackground": "#B50505",
+    "list.activeSelectionForeground": "#fff",
 
     // Button
     "button.background": "#5c0000",
-    "button.hoverBackground": "#ff0000",
+    "button.hoverBackground": "#f00",
+    "extensionButton.prominentBackground": "#5c0000",
+    "extensionButton.prominentHoverBackground": "#f00",
 
     // Breadcrumb
+    "breadcrumb.foreground": "#fcc",
+    "breadcrumb.focusForeground": "#b00",
+    "breadcrumb.activeSelectionForeground": "#f00",
     "breadcrumb.background": "#480202",
     "breadcrumbPicker.background": "#480202",
 
@@ -48,9 +57,9 @@
     "sideBarSectionHeader.foreground": "#fff",
 
     // Notification Center
-    "notifications.border": "#ff0000",
+    "notifications.border": "#f00",
     "notifications.background": "#480202",
-    "notificationCenter.border": "#ff0000",
+    "notificationCenter.border": "#f00",
     "notificationCenterHeader.background": "#B50505",
     "notificationCenterHeader.foreground": "#fff",
 
@@ -60,6 +69,9 @@
 
     // Activity Bar
     "activityBar.border": "#131415",
+    "activityBar.activeBorder": "#ff0000",
+    "activityBar.activeBackground": "#600",
+    "activityBar.dropBackground": "#900",
 
     // Main Tab
     "editorGroupHeader.tabsBackground": "#290101",
@@ -75,19 +87,26 @@
 
     // Status Bar
     "statusBar.background": "#480202",
-    "statusBar.noFolderBackground": "#460248",
+    "statusBar.noFolderBackground": "#3c233d",
     "statusBar.debuggingBackground": "#024806",
     "statusBar.border": "#131415",
     "statusBarItem.hoverBackground": "#f00",
 
     // Progress Bar
-    "progressBar.background": "#ff0000",
+    "progressBar.background": "#f00",
 
-    // Input Fields
-    "input.background": "#581d1d",
-    "input.border": "#484F52",
-    "checkbox.background": "#581d1d",
-    "dropdown.background": "#581d1d"
+    // Fields & Links
+    "textLink.foreground": "#f00",
+    "input.background": "#511",
+    "input.border": "#a00",
+    "checkbox.foreground": "#fcc",
+    "checkbox.background": "#511",
+    "checkbox.border": "#a00",
+    "list.focusBackground": "#f00",
+
+    "dropdown.background": "#511",
+    "dropdown.listBackground": "#511",
+    "dropdown.border": "#a00"
   },
   "tokenColors": "./Red.tmTheme"
 }
