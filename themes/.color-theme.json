@@ -12,8 +12,19 @@
     "minimapSlider.hoverBackground": "#ff000071",
     "minimapSlider.activeBackground": "#ff00009d",
 
+    // Peek View
+    "peekView.border": "#332e2e",
+    "peekViewEditor.background": "#410",
+    "peekViewTitle.background": "#a00",
+    "peekViewTitleLabel.foreground": "#fff",
+    "peekViewTitleDescription.foreground": "#eee",
+    "peekViewResult.background": "#410",
+    "peekViewResult.selectionBackground": "#B50505",
+    "peekViewResult.matchHighlightBackground": "#007006",
+    "peekViewResult.fileForeground": "#8f8",
+
     // Terminal
-    "terminal.ansiBrightYellow": "#ff8800",
+    "terminal.ansiBrightYellow": "#f80",
     "terminal.foreground": "#fcc", //"#41ff2f",
     "terminal.background": "#1D0101",
     // Terminal Panel Border
@@ -64,12 +75,12 @@
     "notificationCenterHeader.foreground": "#fff",
 
     // Main Title Bar
-    "titleBar.activeBackground": "#330000",
+    "titleBar.activeBackground": "#300",
     "titleBar.border": "#131415",
 
     // Activity Bar
     "activityBar.border": "#131415",
-    "activityBar.activeBorder": "#ff0000",
+    "activityBar.activeBorder": "#f00",
     "activityBar.activeBackground": "#600",
     "activityBar.dropBackground": "#900",
 
