@@ -273,7 +273,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#ffa67d</string>
+				<string>#ff8250</string>
 			</dict>
 		</dict>
 		<!-- Element Entities -->
@@ -281,13 +281,27 @@
 			<key>name</key>
 			<string>Meta.tag</string>
 			<key>scope</key>
-			<string>declaration.tag entity, meta.tag entity.name.tag</string>
+			<string>declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity, entity.other.bracket</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#ffa67d</string>
+				<string>#ff8250</string>
+			</dict>
+		</dict>
+		<!-- Element Strings -->
+		<dict>
+			<key>name</key>
+			<string>Meta.tag</string>
+			<key>scope</key>
+			<string>meta.tag, entity.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#fee</string>
 			</dict>
 		</dict>
 		<dict>
