@@ -13,6 +13,7 @@
     "minimapSlider.activeBackground": "#ff00009d",
 
     // Peek View
+
     "peekView.border": "#332e2e",
     "peekViewEditor.background": "#410",
     "peekViewTitle.background": "#a00",
@@ -39,6 +40,7 @@
     "activityBar.inactiveForeground": "#7e5757",
 
     // Any Lists
+    ""
     "list.hoverForeground": "#fff",
     "list.hoverBackground": "#7e0303",
     "list.dropBackground": "#770404",
@@ -82,7 +84,6 @@
     "activityBar.border": "#131415",
     "activityBar.activeBorder": "#f00",
     "activityBar.activeBackground": "#600",
-    "activityBar.dropBackground": "#900",
 
     // Main Tab
     "editorGroupHeader.tabsBackground": "#290101",
