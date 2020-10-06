@@ -1,10 +1,25 @@
-![Evil Red Theme](https://github.com/fralyx/vscode-evil-red-theme/raw/master/src/header.jpg "Evil Red Theme")
+![Evil Red Theme](https://github.com/fralyx/vscode-evil-red-theme/raw/master/src/header.jpg 'Evil Red Theme')
 
 # Evil Red Theme
+
 This is a dark red theme for your Visual Studio Code. Simply red.. ish
 
-# Screenshots
-![Screenshot](https://github.com/fralyx/vscode-evil-red-theme/raw/master/src/s1.png)
+## Frameless Title Bar
 
-# Guidance
-For more info on theming, go to https://code.visualstudio.com/api/extension-guides/color-theme
+To get rid of the title bar frame on MacOS ...
+![Title Bar](https://github.com/fralyx/vscode-evil-red-theme/raw/master/src/title-bar.png)
+Install both [Monkey Patch](https://marketplace.visualstudio.com/items?itemName=iocave.monkey-patch) & [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extensions made by [iocave](https://marketplace.visualstudio.com/publishers/iocave) and add this to your `settings.json`
+
+```
+{
+...
+"window.titleBarStyle": "native",
+"customizeUI.titleBar": "inline",
+...
+}
+```
+
+# Screenshots
+
+![Screenshot on Windows](https://github.com/fralyx/vscode-evil-red-theme/raw/master/src/s1.png)
+![Screenshot on MacOS](https://github.com/fralyx/vscode-evil-red-theme/raw/master/src/s2.png)
