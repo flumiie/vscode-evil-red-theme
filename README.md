@@ -12,10 +12,10 @@ Install both [Monkey Patch](https://marketplace.visualstudio.com/items?itemName=
 
 ```
 {
-...
-"window.titleBarStyle": "native",
-"customizeUI.titleBar": "inline",
-...
+  ...
+  "window.titleBarStyle": "native",
+  "customizeUI.titleBar": "inline",
+  ...
 }
 ```
 

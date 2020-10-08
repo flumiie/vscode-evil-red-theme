@@ -2,6 +2,8 @@
   "name": "evil-red-theme",
   "type": "dark",
   "colors": {
+    "focusBorder": "#f00",
+
     // Main Editor
     "errorForeground": "#f00",
     "editorLineNumber.foreground": "#ff4a4a82",
@@ -76,7 +78,7 @@
     "notificationCenter.border": "#940000",
     "notificationCenterHeader.background": "#B50505",
     "notificationCenterHeader.foreground": "#fff",
-    "notificationLink.foreground": "#ff0000",
+    "notificationLink.foreground": "#f00",
     "notificationsInfoIcon.foreground": "#a3ffa5",
     "notificationsWarningIcon.foreground": "#fffaa0",
     "notificationsErrorIcon.foreground": "#ff9f9f",
