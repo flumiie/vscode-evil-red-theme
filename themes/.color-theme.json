@@ -33,10 +33,11 @@
     // Context Menu
     "menu.background": "#300",
 
-    // Left Menus
+    // Activity Bar
     "activityBar.background": "#300",
     "activityBar.foreground": "#f0e0e0",
     "activityBar.inactiveForeground": "#7e5757",
+    "activityBarBadge.background": "#f00",
 
     // Any Lists
     "list.hoverForeground": "#fff",
