@@ -41,7 +41,8 @@
 
     // Any Lists
     "list.hoverForeground": "#fff",
-    "list.hoverBackground": "#7e0303",
+    "list.hoverBackground": "#600",
+    "list.focusBackground": "#800",
     "list.dropBackground": "#770404",
     "list.focusForeground": "#fff",
     "list.inactiveSelectionBackground": "#520000",
@@ -69,11 +70,16 @@
     "sideBarSectionHeader.foreground": "#fff",
 
     // Notification Center
-    "notifications.border": "#f00",
-    "notifications.background": "#480202",
-    "notificationCenter.border": "#f00",
+    "notifications.border": "#B50505",
+    "notifications.background": "#400",
+    "notificationToast.border": "#940000",
+    "notificationCenter.border": "#940000",
     "notificationCenterHeader.background": "#B50505",
     "notificationCenterHeader.foreground": "#fff",
+    "notificationLink.foreground": "#ff0000",
+    "notificationsInfoIcon.foreground": "#a3ffa5",
+    "notificationsWarningIcon.foreground": "#fffaa0",
+    "notificationsErrorIcon.foreground": "#ff9f9f",
 
     // Main Title Bar
     "titleBar.activeBackground": "#300",
@@ -113,7 +119,6 @@
     "checkbox.foreground": "#fcc",
     "checkbox.background": "#511",
     "checkbox.border": "#a00",
-    "list.focusBackground": "#f00",
 
     "dropdown.background": "#511",
     "dropdown.listBackground": "#511",
