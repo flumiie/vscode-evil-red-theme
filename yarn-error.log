@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/Cellar/node/14.13.0/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js
+
+PATH: 
+  /opt/homebrew/opt/ruby@2.7/bin:/opt/homebrew/Cellar/git/2.30.1/bin:/opt/homebrew/Cellar/fastlane/2.176.0/bin:/Users/flumi/.rvm/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/fralyx/rar:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/opt/ruby@2.7/bin:/opt/homebrew/Cellar/git/2.30.1/bin:/opt/homebrew/Cellar/fastlane/2.176.0/bin:/Users/fralyx/rar:/Users/fralyx/Android/sdk:/Users/fralyx/Android/sdk/tools/bin:/Users/fralyx/Android/sdk/platform-tools:/Users/fralyx/spicetify-cli:/Users/flumi/.rvm/bin:/Users/fralyx/Android/sdk:/Users/fralyx/Android/sdk/tools/bin:/Users/fralyx/Android/sdk/platform-tools:/Users/fralyx/spicetify-cli:/Users/flumi/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/flumi/Documents/workspace/VSCodeThemes/EvilRedTheme/package.json: Unexpected token } in JSON at position 762
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "evil-red-theme",
+    "displayName": "Evil Red Theme",
+    "description": "A dark-ish red theme for Visual Studio Code",
+    "publisher": "fralyx",
+    "icon": "src/logo.png",
+    "main": "./src/extension.ts",
+    "repository": "https://github.com/fralyx/vscode-evil-red-theme",
+    "version": "1.2.0",
+    "engines": {
+      "vscode": "^1.43.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Evil Red Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/.color-theme.json"
+        }
+      ],
+      "commands": [
+        {
+          "command": "fralyx.evil-red-theme.getPath",
+          "title": "Evil Red Theme: Get Full Path"
+        }
+      ]
+    },
+    "activationEvents": ["onCommand:fralyx.evil-red-theme.getPath"],
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

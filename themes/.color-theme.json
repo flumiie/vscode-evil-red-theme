@@ -122,9 +122,15 @@
     "checkbox.background": "#511",
     "checkbox.border": "#a00",
 
+    // Dropdowns
     "dropdown.background": "#511",
     "dropdown.listBackground": "#511",
-    "dropdown.border": "#a00"
+    "dropdown.border": "#a00",
+
+    // Quick Inputs (Ctrl/Cmd + p)
+    "quickInput.background": "#300",
+    "quickInput.list.focusBackground": "#ff0000",
+    "pickerGroup.foreground": "#f6e86e",    
   },
   "tokenColors": "./Red.tmTheme"
 }
